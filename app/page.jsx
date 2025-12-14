@@ -45,7 +45,7 @@ const ranks = [
   {
     name: "GALAXY",
     price: "₹499 / Month",
-    image: "/ranks/galaxy.png",
+    image: "/ranks/IMG_20251214_202555.jpg",
     features: [
       "/fly /heal /repair /hat /craft etc",
       "GALAXY Prefix & Kit",
