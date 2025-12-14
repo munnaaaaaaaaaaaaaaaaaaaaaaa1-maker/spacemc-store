@@ -8,7 +8,7 @@ const ranks = [
     price: "₹199 / Month",
     image: "/ranks/vip.png",
     features: [
-      "/back /craft /glow /ender",
+      "/back /craft /glow /ender etc (check dc) ",
       "VIP Kit",
       "5 Homes • 3 Warps",
       "2 Vaults",
@@ -21,7 +21,7 @@ const ranks = [
     price: "₹299 / Month",
     image: "/ranks/mvp.png",
     features: [
-      "/nick /anvil /afk /craft /ender",
+      "/nick /anvil /afk /craft /ender etc",
       "MVP Kit",
       "7 Homes • 5 Warps",
       "3 Vaults",
@@ -34,7 +34,7 @@ const ranks = [
     price: "₹399 / Month",
     image: "/ranks/god.png",
     features: [
-      "/fly /sit /ender /anvil /glow /afk /feed",
+      "/fly /sit /ender /anvil /glow /afk /feed etc",
       "GOD Prefix & Kit",
       "9 Homes",
       "4 Vaults",
@@ -47,7 +47,7 @@ const ranks = [
     price: "₹499 / Month",
     image: "/ranks/galaxy.png",
     features: [
-      "/fly /heal /repair /hat /craft",
+      "/fly /heal /repair /hat /craft etc",
       "GALAXY Prefix & Kit",
       "20 Homes",
       "5 Vaults",
