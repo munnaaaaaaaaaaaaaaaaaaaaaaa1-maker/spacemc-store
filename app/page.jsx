@@ -13,8 +13,8 @@ const ranks = [
       "5 Homes • 3 Warps",
       "2 Vaults",
       "2,000 ClaimBlocks",
-      "20,000 Money"
-    ]
+      "20,000 Ingame Money",
+    ],
   },
   {
     name: "MVP",
@@ -26,8 +26,8 @@ const ranks = [
       "7 Homes • 5 Warps",
       "3 Vaults",
       "4,000 ClaimBlocks",
-      "80,000 Money"
-    ]
+      "80,000 Ingame Money",
+    ],
   },
   {
     name: "GOD",
@@ -39,8 +39,8 @@ const ranks = [
       "9 Homes",
       "4 Vaults",
       "10,000 ClaimBlocks",
-      "500,000 Money"
-    ]
+      "500,000 Ingame Money",
+    ],
   },
   {
     name: "GALAXY",
@@ -52,40 +52,39 @@ const ranks = [
       "20 Homes",
       "5 Vaults",
       "25,000 ClaimBlocks",
-      "1,000,000 Money"
-    ]
-  }
+      "1,000,000 Ingame Money",
+    ],
+  },
 ];
 
 export default function Page() {
   return (
     <main className="min-h-screen px-4 py-10">
-      <h1 className="text-4xl font-bold text-center mb-10">
+      <h1 className="text-4xl font-bold text-center mb-12">
         SpaceMC Rank Store
       </h1>
 
-      <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
         {ranks.map((rank, i) => (
           <motion.div
             key={i}
             whileHover={{ scale: 1.05 }}
-            className="relative bg-card p-6 rounded-xl border-l-4 border-accent shadow-lg"
+            className="relative bg-card p-6 rounded-xl border-l-4 border-accent shadow-xl transition"
           >
-            <img
-              src={rank.image}
-              alt={rank.name}
-              className="w-20 mx-auto mb-4"
-            />
+            <div className="flex flex-col items-center">
+              <img
+                src={rank.image}
+                alt={rank.name}
+                className="w-24 mb-4"
+              />
 
-            <h2 className="text-2xl font-bold text-center">
-              {rank.name}
-            </h2>
+              <h2 className="text-2xl font-bold">{rank.name}</h2>
+              <p className="text-accent font-semibold mb-4">
+                {rank.price}
+              </p>
+            </div>
 
-            <p className="text-yellow-400 text-center mb-4">
-              {rank.price}
-            </p>
-
-            <ul className="text-sm space-y-2">
+            <ul className="text-sm space-y-2 text-gray-300">
               {rank.features.map((f, idx) => (
                 <li key={idx}>• {f}</li>
               ))}
@@ -94,7 +93,7 @@ export default function Page() {
             <a
               href="https://discord.gg/dU4ZPhpAMh"
               target="_blank"
-              className="block mt-6 text-center bg-yellow-400 text-black py-2 rounded-lg font-bold"
+              className="block mt-6 text-center bg-accent text-black py-2 rounded-lg font-bold hover:opacity-90"
             >
               Buy Now
             </a>
@@ -102,7 +101,7 @@ export default function Page() {
         ))}
       </div>
 
-      <div className="text-center mt-12 text-gray-400 text-sm">
+      <div className="text-center mt-14 text-gray-400 text-sm">
         Java IP: play.spacemcpe.fun <br />
         Bedrock IP: play.spacemcpe.fun:19132
         <br /><br />
