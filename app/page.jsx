@@ -19,7 +19,7 @@ const ranks = [
   {
     name: "MVP",
     price: "₹299 / Month",
-    image: "/ranks/mvp.png",
+    image: "/ranks/IMG_20251214_202510.jpg",
     features: [
       "/nick /anvil /afk /craft /ender etc",
       "MVP Kit",
@@ -32,7 +32,7 @@ const ranks = [
   {
     name: "GOD",
     price: "₹399 / Month",
-    image: "/ranks/god.png",
+    image: "/ranks/IMG_20251214_202532.jpg",
     features: [
       "/fly /sit /ender /anvil /glow /afk /feed etc",
       "GOD Prefix & Kit",
