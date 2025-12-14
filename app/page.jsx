@@ -6,7 +6,7 @@ const ranks = [
   {
     name: "VIP",
     price: "₹199 / Month",
-    image: "/ranks/vip.png",
+    image: "public/ranks/IMG_20251214_202451.jpg",
     features: [
       "/back /craft /glow /ender etc (check dc) ",
       "VIP Kit",
