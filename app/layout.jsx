@@ -1,8 +1,6 @@
-import "./globals.css";
-
 export const metadata = {
   title: "SpaceMC Store",
-  description: "Official SpaceMC Minecraft Store"
+  description: "Official SpaceMC Rank Store"
 };
 
 export default function RootLayout({ children }) {
